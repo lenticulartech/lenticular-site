@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenticular Tech | The Architect & The Analyst</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #050505; color: #e5e7eb; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .logo-box { background: white; padding: 24px; border-radius: 24px; box-shadow: 0 0 40px rgba(0, 98, 255, 0.15); inline-block; }
+        .accent-blue { color: #0062ff; }
+        .accent-orange { color: #ff9900; }
+        .glow:hover { box-shadow: 0 0 20px rgba(0, 98, 255, 0.4); transition: 0.3s; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <section class="min-h-screen flex flex-col justify-center items-center px-6 text-center">
+        <div class="max-w-4xl">
+            <div class="inline-block logo-box mb-10">
+                <img src="logo.png" alt="Lenticular Tech Logo" class="h-24 md:h-32 object-contain">
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                Lenticular <span class="accent-blue">Tech</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-400 font-light">
+                Where <span class="font-semibold text-white">Infrastructure</span> meets <span class="font-semibold text-white">Intelligence</span>.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 mb-12 font-mono text-[10px] uppercase tracking-widest">
+                <span class="px-4 py-2 glass rounded-full text-blue-400 border-blue-500/30">Live @ RSAC 2026</span>
+                <span class="px-4 py-2 glass rounded-full text-orange-400 border-orange-500/30">Multi-Cloud / Agentic AI</span>
+            </div>
+            <a href="mailto:craig.nash@mycampus.apus.edu" class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-bold transition-all glow shadow-lg">
+                Technical Discovery
+            </a>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-[#080808]">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+            <div class="glass p-8 rounded-2xl border-blue-500/20">
+                <div class="text-blue-500 mb-4 text-3xl font-mono">// THE ARCHITECT</div>
+                <h2 class="text-3xl font-bold mb-2">Craig Nash</h2>
+                <p class="text-gray-400 mb-6 italic">Core Infrastructure & Multi-Cloud Foundations</p>
+                <ul class="space-y-4 text-sm font-mono text-gray-300">
+                    <li><i class="fa-solid fa-server accent-blue mr-3"></i>IBM Hybrid Cloud & AWS Professional</li>
+                    <li><i class="fa-solid fa-network-wired accent-blue mr-3"></i>DNS, VPN & Secure Connectivity</li>
+                    <li><i class="fa-solid fa-shield-halved accent-blue mr-3"></i>Zero-Trust Network Access</li>
+                </ul>
+            </div>
+
+            <div class="glass p-8 rounded-2xl border-orange-500/20">
+                <div class="text-orange-500 mb-4 text-3xl font-mono">// THE ANALYST</div>
+                <h2 class="text-3xl font-bold mb-2">Zoya</h2>
+                <p class="text-gray-400 mb-6 italic">Agentic Intelligence & Operational Strategy</p>
+                <ul class="space-y-4 text-sm font-mono text-gray-300">
+                    <li><i class="fa-solid fa-brain accent-orange mr-3"></i>Autonomous AI Agent Pipelines</li>
+                    <li><i class="fa-solid fa-chart-line accent-orange mr-3"></i>Data Analytics & Synthetic Generation</li>
+                    <li><i class="fa-solid fa-gears accent-orange mr-3"></i>Business Process Intelligence</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-center text-3xl font-bold mb-16">Full-Stack Solutions</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass p-6 rounded-xl">
+                    <h4 class="font-bold mb-3 accent-blue">Remote Access</h4>
+                    <p class="text-sm text-gray-400">VDI and zero-trust solutions allowing your team to work from anywhere without compromising the perimeter.</p>
+                </div>
+                <div class="glass p-6 rounded-xl">
+                    <h4 class="font-bold mb-3 accent-blue">Cloud Architecture</h4>
+                    <p class="text-sm text-gray-400">Hybrid multi-cloud design across IBM, AWS, GCP, and Azure. Vendor-neutral, cost-optimized deployment.</p>
+                </div>
+                <div class="glass p-6 rounded-xl">
+                    <h4 class="font-bold mb-3 accent-orange">Agentic RAG</h4>
+                    <p class="text-sm text-gray-400">Retrieval-Augmented Generation workflows built on LangChain/LangGraph for production-grade AI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-[#080808]">
+        <div class="max-w-4xl mx-auto glass border-blue-400/30 p-10 rounded-3xl relative overflow-hidden">
+            <div class="absolute top-4 right-4 bg-blue-500 text-black text-[10px] px-2 py-1 rounded font-bold uppercase">Active R&D</div>
+            <h3 class="text-2xl font-bold mb-4">Lenticular <span class="italic text-blue-400">Insights</span></h3>
+            <p class="text-gray-400 mb-6">A privacy-first <strong>Engagement Intelligence System</strong> using Edge AI, mmWave radar, and sensor fusion to measure human focus in real-time. Designed for classrooms; scalable for meetings and conferences.</p>
+            <div class="flex gap-6 text-[10px] font-mono text-gray-500 uppercase">
+                <span>MoveNet Posture</span>
+                <span>YAMNet Audio</span>
+                <span>Privacy-First Edge</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-600 text-[10px] font-mono border-t border-white/5">
+        &copy; 2026 LENTICULAR TECH // CLOUD ARCHITECTURE // DATA ANALYTICS // AGENTIC AI
+    </footer>
+
+</body>
+</html>
